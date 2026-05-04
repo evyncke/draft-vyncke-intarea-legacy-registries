@@ -95,7 +95,7 @@ defining such extensions is not recommended.
 # Introduction
 
 Several registries were created for IPv4-related protocol elements {{!RFC791}}.
-These regisries were created by {{?RFC1700 }}, which in turn was obsoleted by {{?RFC3232}} which handed
+These regisries were created by {{?RFC1700}}, which in turn was obsoleted by {{?RFC3232}} which handed
 these registries to IANA.
 
 As the IETF does not plan to extend core IPv4 specification (see also [IAB_IPV4]) and that more
