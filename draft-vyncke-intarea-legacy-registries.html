@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta content="Common,Latin" name="scripts">
 <meta content="initial-scale=1.0" name="viewport">
-<title>Managing the Legacy IPv4-related IANA Registries</title>
+<title>Updates to Legacy IPv4-related IANA Registries</title>
 <meta content="Éric Vyncke" name="author">
 <meta content="
-       Before 2000, several IANA registries were created for IPv4. As IPv4 is no more extended,
-the registration of new entries in associated registries need to be closed or updated.
-This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the related IANA registries. 
+       IANA maintains several registries that were created for IPv4 extensions. As IPv4 core specification  (RFC 791) is no more extended,
+the associated IANA registries need to be updated to reflect the current practice and reflect that
+defining such extensions is not recommended. 
     " name="description">
 <meta content="xml2rfc 3.33.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
@@ -1062,9 +1062,6 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="workgroup">int-area</dd>
 <dt class="label-internet-draft">Internet-Draft:</dt>
 <dd class="internet-draft">draft-vyncke-intarea-legacy-registries-latest</dd>
-<dt class="label-updates">Updates:</dt>
-<dd class="updates">
-<a href="https://www.rfc-editor.org/rfc/rfc791" class="eref">791</a>, <a href="https://www.rfc-editor.org/rfc/rfc952" class="eref">952</a>, <a href="https://www.rfc-editor.org/rfc/rfc1091" class="eref">1091</a>, <a href="https://www.rfc-editor.org/rfc/rfc2242" class="eref">2242</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
 <time datetime="2026-05-04" class="published">4 May 2026</time>
@@ -1082,12 +1079,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </dd>
 </dl>
 </div>
-<h1 id="title">Managing the Legacy IPv4-related IANA Registries</h1>
+<h1 id="title">Updates to Legacy IPv4-related IANA Registries</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">Before 2000, several IANA registries were created for IPv4. As IPv4 is no more extended,
-the registration of new entries in associated registries need to be closed or updated.
-This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the related IANA registries.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-1">IANA maintains several registries that were created for IPv4 extensions. As IPv4 core specification  (RFC 791) is no more extended,
+the associated IANA registries need to be updated to reflect the current practice and reflect that
+defining such extensions is not recommended.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-discussion-venues">
@@ -1191,29 +1188,40 @@ This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">Before 2000, several IANA registries were created for IPv4-related protocol elements (<span>[<a href="#RFC791" class="cite xref">RFC791</a>]</span>). As
-the IETF does not plan to extend IPv4 (see also <span>[<a href="#IAB_IPV4" class="cite xref">IAB_IPV4</a>]</span> for the focus on IPv6), this document closes
-some registries and changes the registration procedures of others.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<div id="justification">
+<p id="section-1-1">Several IANA registries were created for IPv4-related protocol elements <span>[<a href="#RFC791" class="cite xref">RFC791</a>]</span>. As
+the IETF does not plan to extend core IPv4 specification (see also <span>[<a href="#IAB_IPV4" class="cite xref">IAB_IPV4</a>]</span>) and that more
+modern mechanisms are defined to manage names, this document closes
+some relevant IANA registries and changes the registration procedures of others. See more in <a href="#sec-justification" class="auto internal xref">Section 1.1</a>.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<div id="sec-justification">
 <section id="section-1.1">
         <h3 id="name-justification">
 <a href="#section-1.1" class="section-number selfRef">1.1. </a><a href="#name-justification" class="section-name selfRef">Justification</a>
         </h3>
-<p id="section-1.1-1">This section contains the justifications for the changes in IANA registries (<a href="#iana-considerations" class="auto internal xref">Section 4</a>):<a href="#section-1.1-1" class="pilcrow">¶</a></p>
-<ul class="normal">
-<li class="normal" id="section-1.1-2.1">
-            <p id="section-1.1-2.1.1"><span>[<a href="#DHC_NETWARE" class="cite xref">DHC_NETWARE</a>]</span>: registration is to be closed as Netware is not extended anymore.<a href="#section-1.1-2.1.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-1.1-2.2">
-            <p id="section-1.1-2.2.1"><span>[<a href="#IP_OPTIONS" class="cite xref">IP_OPTIONS</a>]</span>: as IPv4 will not be extended, the registration for new IPv4 options is to be closed.<a href="#section-1.1-2.2.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-1.1-2.3">
-            <p id="section-1.1-2.3.1"><span>[<a href="#IP_TTL" class="cite xref">IP_TTL</a>]</span>: this registry should not have been created as the IPv4 time-to-live (TTL) header field can be freely selected by the source node.<a href="#section-1.1-2.3.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-1.1-2.4">
-            <p id="section-1.1-2.4.1"><span>[<a href="#MACHINE_NAMES" class="cite xref">MACHINE_NAMES</a>]</span> and <span>[<a href="#TERMINAL_TYPES" class="cite xref">TERMINAL_TYPES</a>]</span>: there are no registration procedures for these registries and, while probably new registrations will be rare, this document specifies the registration procedure as "First Come, First Served" (<span>[<a href="#RFC8126" class="cite xref">RFC8126</a>], <a href="https://rfc-editor.org/rfc/rfc8126#section-4.4" class="relref">Section 4.4</a></span>).<a href="#section-1.1-2.4.1" class="pilcrow">¶</a></p>
-</li>
-        </ul>
+<p id="section-1.1-1">The justifications for the changes to IANA registries listed in <a href="#iana-considerations" class="auto internal xref">Section 4</a>) are as follows:<a href="#section-1.1-1" class="pilcrow">¶</a></p>
+<span class="break"></span><dl class="dlParallel" id="section-1.1-2">
+          <dt id="section-1.1-2.1">
+<span>[<a href="#DHC_NETWARE" class="cite xref">DHC_NETWARE</a>]</span>:</dt>
+          <dd style="margin-left: 1.5em" id="section-1.1-2.2">
+            <p id="section-1.1-2.2.1">Registrations are to be closed as Netware is not extended anymore.<a href="#section-1.1-2.2.1" class="pilcrow">¶</a></p>
+</dd>
+          <dd class="break"></dd>
+<dt id="section-1.1-2.3">
+<span>[<a href="#IP_OPTIONS" class="cite xref">IP_OPTIONS</a>]</span>:</dt>
+          <dd style="margin-left: 1.5em" id="section-1.1-2.4">
+            <p id="section-1.1-2.4.1">It is commonly understood that the use of IPv4 option is broken <span>[<a href="#NOT_AN_OPTION" class="cite xref">NOT_AN_OPTION</a>]</span>. As such, the registration for new IPv4 options is closed.<a href="#section-1.1-2.4.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+</dl>
+<p id="section-1.1-3"><span>[<a href="#IP_TTL" class="cite xref">IP_TTL</a>]</span>:
+:This registry should not have been created as the IPv4 Time to Live (TTL) (<span><a href="https://rfc-editor.org/rfc/rfc791#section-3.1" class="relref">Section 3.1</a> of [<a href="#RFC791" class="cite xref">RFC791</a>]</span>) header field can be freely selected by the source node.<a href="#section-1.1-3" class="pilcrow">¶</a></p>
+<span class="break"></span><dl class="dlParallel" id="section-1.1-4">
+          <dt id="section-1.1-4.1">
+<span>[<a href="#MACHINE_NAMES" class="cite xref">MACHINE_NAMES</a>]</span> and <span>[<a href="#TERMINAL_TYPES" class="cite xref">TERMINAL_TYPES</a>]</span>:</dt>
+          <dd style="margin-left: 1.5em" id="section-1.1-4.2">
+            <p id="section-1.1-4.2.1">There are no registration procedures for these two registries. Moreover, there were no registrations made to these registries in the last two decades. This document specifies the registration procedure as "First Come First Served" (<span>[<a href="#RFC8126" class="cite xref">RFC8126</a>], <a href="https://rfc-editor.org/rfc/rfc8126#section-4.4" class="relref">Section 4.4</a></span>).<a href="#section-1.1-4.2.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+</dl>
 </section>
 </div>
 </section>
@@ -1223,8 +1231,12 @@ some registries and changes the registration procedures of others.<a href="#sect
       <h2 id="name-operational-considerations">
 <a href="#section-2" class="section-number selfRef">2. </a><a href="#name-operational-considerations" class="section-name selfRef">Operational Considerations</a>
       </h2>
-<p id="section-2-1">As some registries are closing, they cannot be extended but the existing values are still
-valid, i.e., they are not deprecated and can still be used.<a href="#section-2-1" class="pilcrow">¶</a></p>
+<p id="section-2-1">As some registries are closed, they cannot be extended but the existing values are still
+valid, i.e., they are not deprecated and can still be used. These changes do not impact existing
+operations that use already registered values.<a href="#section-2-1" class="pilcrow">¶</a></p>
+<p id="section-2-2">The use of IPv4 options on the public Internet is broken. The changes in this document
+provides a clear signal that solutions that rely on defining such options are not reliable. More
+robust alternative means should be explored.<a href="#section-2-2" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="security-considerations">
@@ -1232,10 +1244,10 @@ valid, i.e., they are not deprecated and can still be used.<a href="#section-2-1
       <h2 id="name-security-considerations">
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
       </h2>
-<p id="section-3-1">There are no specific security considerations for this document except for the registries whose registration
-procedures is now <span>[<a href="#RFC8126" class="cite xref">RFC8126</a>]</span> First Come First Served, the registration is still possible
-with the risk of having unusable non-sensible data in it, but the IANA policy is to apply common sense
-filtering on the content and number of registrations.<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-3-1">There is no new security considerations introduced by this document except for the registries whose registration
+policy is changed to "First Come First Served". Concretely, registration is still possible to such registries
+with the risk of having unusable non-sensible data added to it, but the IANA policy is to apply common sense
+filtering on the content and amount of registrations.<a href="#section-3-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="iana-considerations">
@@ -1243,16 +1255,31 @@ filtering on the content and number of registrations.<a href="#section-3-1" clas
       <h2 id="name-iana-considerations">
 <a href="#section-4" class="section-number selfRef">4. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
       </h2>
-<p id="section-4-1">The IANA is requested to set the registration procedure to "Registration no longer accepted" with a reference to this document:
-* <span>[<a href="#DHC_NETWARE" class="cite xref">DHC_NETWARE</a>]</span>
-* <span>[<a href="#IP_OPTIONS" class="cite xref">IP_OPTIONS</a>]</span><a href="#section-4-1" class="pilcrow">¶</a></p>
-<p id="section-4-2">The IANA is requested to set the registration procedure to "First Come First Served" (<span>[<a href="#RFC8126" class="cite xref">RFC8126</a>], <a href="https://rfc-editor.org/rfc/rfc8126#section-4.4" class="relref">Section 4.4</a></span>) with a reference to this document:
-* <span>[<a href="#MACHINE_NAMES" class="cite xref">MACHINE_NAMES</a>]</span>
-* <span>[<a href="#TERMINAL_TYPES" class="cite xref">TERMINAL_TYPES</a>]</span><a href="#section-4-2" class="pilcrow">¶</a></p>
-<p id="section-4-3">The IANA is requested to completely remove the <span>[<a href="#IP_TTL" class="cite xref">IP_TTL</a>]</span> registry. If not possible, then the IANA is requested to
-replace the existing note by
-"There is no registry for the IPv4 time-to-live (TTL) as it is set by the node operating system or the node application.
-The past and current recommended default time to live (TTL) for the IPv4 is 64 [RFC791][RFC1122]."<a href="#section-4-3" class="pilcrow">¶</a></p>
+<p id="section-4-1">This document requests IANA to set the registration procedure to "Registration no longer accepted" with a reference to this document for the following registries:<a href="#section-4-1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-4-2.1">
+          <p id="section-4-2.1.1">The "NetWare/IP Option Type 63 Sub-Option Codes" registry under the "Dynamic Host Configuration Protocol (DHCP) and Bootstrap Protocol (BOOTP) Parameters" registry group <span>[<a href="#DHC_NETWARE" class="cite xref">DHC_NETWARE</a>]</span>.<a href="#section-4-2.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-4-2.2">
+          <p id="section-4-2.2.1">The "IP Option Numbers" registry under the "Internet Protocol Version 4 (IPv4) Parameters" registry group <span>[<a href="#IP_OPTIONS" class="cite xref">IP_OPTIONS</a>]</span>.<a href="#section-4-2.2.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<p id="section-4-3">This document requests IANA to set the registration procedure to "First Come First Served" (<span>[<a href="#RFC8126" class="cite xref">RFC8126</a>], <a href="https://rfc-editor.org/rfc/rfc8126#section-4.4" class="relref">Section 4.4</a></span>) with a reference to this document for the following registries:<a href="#section-4-3" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-4-4.1">
+          <p id="section-4-4.1.1">The "Machine Names" registry group <span>[<a href="#MACHINE_NAMES" class="cite xref">MACHINE_NAMES</a>]</span>.<a href="#section-4-4.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-4-4.2">
+          <p id="section-4-4.2.1">The "Terminal Type Names" registry group <span>[<a href="#TERMINAL_TYPES" class="cite xref">TERMINAL_TYPES</a>]</span>.<a href="#section-4-4.2.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
+<p id="section-4-5">This document also requests IANA to completely remove the "IP Time to Live Parameter" registry under the "Internet Protocol Version 4 (IPv4) Parameters" registry group  <span>[<a href="#IP_TTL" class="cite xref">IP_TTL</a>]</span>. If not possible, then IANA is requested to replace the existing note with the following note:<a href="#section-4-5" class="pilcrow">¶</a></p>
+<ul class="normal ulEmpty">
+<li class="normal ulEmpty" id="section-4-6.1">
+          <p id="section-4-6.1.1">There is no registry for the IPv4 Time To Live (TTL) as it is set by the node operating system or the node application.
+Recommended default TTL value for IPv4 is 64 <span>[<a href="#RFC791" class="cite xref">RFC791</a>]</span><span>[<a href="#RFC1122" class="cite xref">RFC1122</a>]</span>.<a href="#section-4-6.1.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
 </section>
 </div>
 <div id="sec-combined-references">
@@ -1266,6 +1293,14 @@ The past and current recommended default time to live (TTL) for the IPv4 is 64 [
 <a href="#section-5.1" class="section-number selfRef">5.1. </a><a href="#name-normative-references" class="section-name selfRef">Normative References</a>
         </h3>
 <dl class="references">
+<dt id="RFC1122">[RFC1122]</dt>
+        <dd>
+<span class="refAuthor">Braden, R., Ed.</span>, <span class="refTitle">"Requirements for Internet Hosts - Communication Layers"</span>, <span class="seriesInfo">STD 3</span>, <span class="seriesInfo">RFC 1122</span>, <span class="seriesInfo">DOI 10.17487/RFC1122</span>, <time datetime="1989-10" class="refDate">October 1989</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc1122">https://www.rfc-editor.org/rfc/rfc1122</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC791">[RFC791]</dt>
+        <dd>
+<span class="refAuthor">Postel, J.</span>, <span class="refTitle">"Internet Protocol"</span>, <span class="seriesInfo">STD 5</span>, <span class="seriesInfo">RFC 791</span>, <span class="seriesInfo">DOI 10.17487/RFC0791</span>, <time datetime="1981-09" class="refDate">September 1981</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc791">https://www.rfc-editor.org/rfc/rfc791</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="RFC8126">[RFC8126]</dt>
       <dd>
 <span class="refAuthor">Cotton, M.</span>, <span class="refAuthor">Leiba, B.</span>, and <span class="refAuthor">T. Narten</span>, <span class="refTitle">"Guidelines for Writing an IANA Considerations Section in RFCs"</span>, <span class="seriesInfo">BCP 26</span>, <span class="seriesInfo">RFC 8126</span>, <span class="seriesInfo">DOI 10.17487/RFC8126</span>, <time datetime="2017-06" class="refDate">June 2017</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc8126">https://www.rfc-editor.org/rfc/rfc8126</a>&gt;</span>. </dd>
@@ -1281,31 +1316,31 @@ The past and current recommended default time to live (TTL) for the IPv4 is 64 [
 <dl class="references">
 <dt id="DHC_NETWARE">[DHC_NETWARE]</dt>
         <dd>
-<span class="refTitle">"NetWare/IP Option Type 63 Sub-Option Codes"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml#type-63-sub-options">https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml#type-63-sub-options</a>&gt;</span>. </dd>
+<span class="refAuthor">IANA</span>, <span class="refTitle">"NetWare/IP Option Type 63 Sub-Option Codes"</span>, <span>&lt;<a href="https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml#type-63-sub-options">https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml#type-63-sub-options</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="IAB_IPV4">[IAB_IPV4]</dt>
         <dd>
-<span class="refTitle">"IAB Statement on IPv6"</span>, <span>n.d.</span>, <span>&lt;<a href="https://datatracker.ietf.org/doc/statement-iab-statement-on-ipv6/">https://datatracker.ietf.org/doc/statement-iab-statement-on-ipv6/</a>&gt;</span>. </dd>
+<span class="refTitle">"IAB Statement on IPv6"</span>, <time datetime="2016-11-07" class="refDate">7 November 2016</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/statement-iab-statement-on-ipv6/">https://datatracker.ietf.org/doc/statement-iab-statement-on-ipv6/</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="IP_OPTIONS">[IP_OPTIONS]</dt>
         <dd>
-<span class="refTitle">"IP Option Numbers"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml#ip-parameters-1">https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml#ip-parameters-1</a>&gt;</span>. </dd>
+<span class="refAuthor">IANA</span>, <span class="refTitle">"IP Option Numbers"</span>, <span>&lt;<a href="https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml#ip-parameters-1">https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml#ip-parameters-1</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="IP_TTL">[IP_TTL]</dt>
         <dd>
-<span class="refTitle">"IP Option Numbers"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml#ip-parameters-2">https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml#ip-parameters-2</a>&gt;</span>. </dd>
+<span class="refAuthor">IANA</span>, <span class="refTitle">"IP Time to Live Parameter"</span>, <span>&lt;<a href="https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml#ip-parameters-2">https://www.iana.org/assignments/ip-parameters/ip-parameters.xhtml#ip-parameters-2</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="MACHINE_NAMES">[MACHINE_NAMES]</dt>
         <dd>
-<span class="refTitle">"Machine Names"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.iana.org/assignments/machine-names/machine-names.xhtml#machine-names-1">https://www.iana.org/assignments/machine-names/machine-names.xhtml#machine-names-1</a>&gt;</span>. </dd>
+<span class="refAuthor">IANA</span>, <span class="refTitle">"Machine Names"</span>, <span>&lt;<a href="https://www.iana.org/assignments/machine-names/machine-names.xhtml">https://www.iana.org/assignments/machine-names/machine-names.xhtml</a>&gt;</span>. </dd>
 <dd class="break"></dd>
-<dt id="RFC791">[RFC791]</dt>
+<dt id="NOT_AN_OPTION">[NOT_AN_OPTION]</dt>
         <dd>
-<span class="refAuthor">Postel, J.</span>, <span class="refTitle">"Internet Protocol"</span>, <span class="seriesInfo">STD 5</span>, <span class="seriesInfo">RFC 791</span>, <span class="seriesInfo">DOI 10.17487/RFC0791</span>, <time datetime="1981-09" class="refDate">September 1981</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc791">https://www.rfc-editor.org/rfc/rfc791</a>&gt;</span>. </dd>
+<span class="refAuthor">Fonseca, R.</span>, <span class="refAuthor">Porter, G. M.</span>, <span class="refAuthor">Katz, R. H.</span>, <span class="refAuthor">Shenker, S.</span>, and <span class="refAuthor">I. Stoica</span>, <span class="refTitle">"IP Options are not an option"</span>, <time datetime="2005-12" class="refDate">December 2005</time>, <span>&lt;<a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/EECS-2005-24.pdf">https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/EECS-2005-24.pdf</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="TERMINAL_TYPES">[TERMINAL_TYPES]</dt>
       <dd>
-<span class="refTitle">"Terminal Type Names"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.iana.org/assignments/terminal-type-names/terminal-type-names.xhtml#terminal-type-names-1">https://www.iana.org/assignments/terminal-type-names/terminal-type-names.xhtml#terminal-type-names-1</a>&gt;</span>. </dd>
+<span class="refAuthor">IANA</span>, <span class="refTitle">"Terminal Type Names"</span>, <span>&lt;<a href="https://www.iana.org/assignments/terminal-type-names/terminal-type-names.xhtml">https://www.iana.org/assignments/terminal-type-names/terminal-type-names.xhtml</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 </dl>
 </section>
