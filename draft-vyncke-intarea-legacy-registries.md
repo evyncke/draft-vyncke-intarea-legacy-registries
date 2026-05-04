@@ -73,15 +73,15 @@ This section contains the justifications for the changes in IANA registries ({{i
 
 # Operational Considerations
 
-As the some registries are closing, they cannot be extended but the existing values are still
+As some registries are closing, they cannot be extended but the existing values are still
 valid, i.e., they are not deprecated and can still be used.
 
 # Security Considerations
 
-There is no specific security considerations for this document except for the registries whose registration
+There are no specific security considerations for this document except for the registries whose registration
 procedures is now {{!RFC8126}} First Come First Served, the registration is still possible
 with the risk of having unusable non-sensible data in it, but the IANA policy is to apply common sense
-filtering on the content and amount of registrations.
+filtering on the content and number of registrations.
 
 # IANA Considerations
 
