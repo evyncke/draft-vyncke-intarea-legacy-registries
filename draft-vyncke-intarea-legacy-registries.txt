@@ -19,6 +19,9 @@ Abstract
    reflect the current practice and reflect that defining such
    extensions is not recommended.
 
+   This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it
+   updates the related IANA registries.
+
 Discussion Venues
 
    This note is to be removed before publishing as an RFC.
@@ -212,8 +215,9 @@ Table of Contents
 
 Acknowledgments
 
-   Thanks to Mohamed Boucadair for the initial idea and to Amanda Baber
-   for the initial list of legacy registries.
+   Thanks to Mohamed Boucadair for the initial idea and deep review.
+   Thanks also to Amanda Baber for the initial list of legacy registries
+   or registries without any specified registration procedures.
 
 Author's Address
 
