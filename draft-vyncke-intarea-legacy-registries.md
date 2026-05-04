@@ -26,10 +26,6 @@ author:
 normative:
 
 informative:
-  IAB_IPV4:
-    target: https://datatracker.ietf.org/doc/statement-iab-statement-on-ipv6/
-    title: IAB Statement on IPv6
-    date: 2016-11-07
   DHC_NETWARE:
     author:
       -
@@ -37,6 +33,10 @@ informative:
     target: https://www.iana.org/assignments/bootp-dhcp-parameters/bootp-dhcp-parameters.xhtml#type-63-sub-options
     title: NetWare/IP Option Type 63 Sub-Option Codes
     date: false
+  IAB_IPV4:
+    target: https://datatracker.ietf.org/doc/statement-iab-statement-on-ipv6/
+    title: IAB Statement on IPv6
+    date: 2016-11-07
   IP_OPTIONS:
     author:
       -
@@ -58,13 +58,6 @@ informative:
     target: https://www.iana.org/assignments/machine-names/machine-names.xhtml
     title: Machine Names
     date: false
-  TERMINAL_TYPES:
-    author:
-      -
-       organization: "IANA"
-    target: https://www.iana.org/assignments/terminal-type-names/terminal-type-names.xhtml
-    title: Terminal Type Names
-    date: false
   NOT_AN_OPTION:
     author:
       -
@@ -80,14 +73,23 @@ informative:
     target: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/EECS-2005-24.pdf
     title: IP Options are not an option
     date: December 9, 2005
+  TERMINAL_TYPES:
+    author:
+      -
+       organization: "IANA"
+    target: https://www.iana.org/assignments/terminal-type-names/terminal-type-names.xhtml
+    title: Terminal Type Names
+    date: false
 
 
 
 --- abstract
 
-IANA maintains several registries that were created for IPv4 extensions. As IPv4 core specification  (RFC 791) is no more extended,
+IANA maintains several registries that were created for IPv4 extensions. As IPv4 core specification (RFC 791) is no more extended,
 the associated IANA registries need to be updated to reflect the current practice and reflect that
 defining such extensions is not recommended.
+
+This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the related IANA registries.
 
 --- middle
 
@@ -153,4 +155,5 @@ This document also requests IANA to completely remove the "IP Time to Live Param
 # Acknowledgments
 {:numbered="false"}
 
-Thanks to Mohamed Boucadair for the initial idea and to Amanda Baber for the initial list of legacy registries.
+Thanks to Mohamed Boucadair for the initial idea and deep review. Thanks also to Amanda Baber for the initial list of legacy registries or registries without
+any specified registration procedures.
