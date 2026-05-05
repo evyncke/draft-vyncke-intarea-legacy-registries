@@ -89,14 +89,16 @@ IANA maintains several registries that were created for IPv4 extensions. As IPv4
 the associated IANA registries need to be updated to reflect the current practice and reflect that
 defining such extensions is not recommended.
 
-This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the related IANA registries.
 
 --- middle
 
 # Introduction
 
-Several IANA registries were created for IPv4-related protocol elements {{!RFC791}}. As
-the IETF does not plan to extend core IPv4 specification (see also [IAB_IPV4]) and that more
+Several registries were created for IPv4-related protocol elements {{!RFC791}}.
+These regisries were created by {{?RFC1700}}, which in turn was obsoleted by {{?RFC3232}} which handed
+these registries to IANA.
+
+As the IETF does not plan to extend core IPv4 specification (see also [IAB_IPV4]) and that more
 modern mechanisms are defined to manage names, this document closes
 some relevant IANA registries and changes the registration procedures of others. See more in {{sec-justification}}.
 
