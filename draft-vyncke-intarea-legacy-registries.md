@@ -85,7 +85,8 @@ informative:
 
 --- abstract
 
-IANA maintains several registries that were created for IPv4 extensions. As IPv4 core specification (RFC 791) is no more extended,
+IANA maintains several registries that were created for IPv4 extensions. As the IPv4 core specification
+is no longer being extended or maintained,
 the associated IANA registries need to be updated to reflect the current practice and reflect that
 defining such extensions is not recommended.
 
@@ -98,7 +99,7 @@ Several registries were created for IPv4-related protocol elements {{!RFC791}}.
 These regisries were created by {{?RFC1700}}, which in turn was obsoleted by {{?RFC3232}} which handed
 these registries to IANA.
 
-As the IETF does not plan to extend core IPv4 specification (see also [IAB_IPV4]) and that more
+As the IPv4 core specification (RFC 791) is no longer being extended or maintained (see also [IAB_IPV4]) and that more
 modern mechanisms are defined to manage names, this document closes
 some relevant IANA registries and changes the registration procedures of others. See more in {{sec-justification}}.
 
@@ -158,4 +159,4 @@ This document also requests IANA to completely remove the "IP Time to Live Param
 {:numbered="false"}
 
 Thanks to Mohamed Boucadair for the initial idea and deep review. Thanks also to Amanda Baber for the initial list of legacy registries or registries without
-any specified registration procedures.
+any specified registration procedures. Other thanks for reviewers: Tommy Jensen.
