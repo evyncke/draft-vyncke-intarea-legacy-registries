@@ -1,0 +1,191 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2026-05-05T02:04:12.274049+00:00",
+  "repo": "evyncke/draft-vyncke-intarea-legacy-registries",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOST7MCc7YETmn",
+      "title": "Med's review with some suggestions",
+      "url": "https://github.com/evyncke/draft-vyncke-intarea-legacy-registries/pull/1",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Thanks for the work.",
+      "createdAt": "2026-05-04T15:26:18Z",
+      "updatedAt": "2026-05-04T17:37:50Z",
+      "baseRepository": "evyncke/draft-vyncke-intarea-legacy-registries",
+      "baseRefName": "main",
+      "baseRefOid": "e3b5f6748e9a203b9d18b27f7ba1cc733a0c4ac6",
+      "headRepository": "boucadair/draft-vyncke-intarea-legacy-registries",
+      "headRefName": "main",
+      "headRefOid": "e1ab538fca12fdd297978574c808100dd8a6a5fd",
+      "closedAt": "2026-05-04T15:38:55Z",
+      "mergedAt": "2026-05-04T15:38:55Z",
+      "mergedBy": "evyncke",
+      "mergeCommit": {
+        "oid": "5268b5f479b5a43802de5b34fb0847ae9086b5f1"
+      },
+      "comments": [
+        {
+          "author": "boucadair",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "> Still need to have \"This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the related IANA registries.\" IMHO\r\n\r\nI have checked these RFCs but found no mention or text to be updated. I trust you have done the check",
+          "createdAt": "2026-05-04T17:36:36Z",
+          "updatedAt": "2026-05-04T17:36:36Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOST7MCc77nSv6",
+          "commit": {
+            "abbreviatedOid": "e1ab538"
+          },
+          "author": "evyncke",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-05-04T15:34:45Z",
+          "updatedAt": "2026-05-04T15:34:45Z",
+          "comments": [
+            {
+              "originalPosition": 84,
+              "body": "Still need to have \"This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the related IANA registries.\"",
+              "createdAt": "2026-05-04T15:34:45Z",
+              "updatedAt": "2026-05-04T15:34:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOST7MCc77nV5u",
+          "commit": {
+            "abbreviatedOid": "e1ab538"
+          },
+          "author": "evyncke",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-05-04T15:37:01Z",
+          "updatedAt": "2026-05-04T15:37:01Z",
+          "comments": [
+            {
+              "originalPosition": 84,
+              "body": "Still need to have \"This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the related IANA registries.\"",
+              "createdAt": "2026-05-04T15:37:01Z",
+              "updatedAt": "2026-05-04T15:37:01Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOST7MCc77nXbU",
+          "commit": {
+            "abbreviatedOid": "e1ab538"
+          },
+          "author": "evyncke",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Abstract should still contain \"Still need to have \"This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it updates the related IANA registries.\" IMHO",
+          "createdAt": "2026-05-04T15:38:03Z",
+          "updatedAt": "2026-05-04T15:38:03Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOST7MCc77qMkZ",
+          "commit": {
+            "abbreviatedOid": "e1ab538"
+          },
+          "author": "boucadair",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2026-05-04T17:37:49Z",
+          "updatedAt": "2026-05-04T17:37:50Z",
+          "comments": [
+            {
+              "originalPosition": 84,
+              "body": "If you decide to keep the update in the abstract, then re-add the update header as well. \r\n",
+              "createdAt": "2026-05-04T17:37:49Z",
+              "updatedAt": "2026-05-04T17:37:50Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOST7MCc7YJMIX",
+      "title": "more history background",
+      "url": "https://github.com/evyncke/draft-vyncke-intarea-legacy-registries/pull/2",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Clarify the status and management of IANA registries for IPv4.",
+      "createdAt": "2026-05-04T19:48:55Z",
+      "updatedAt": "2026-05-04T19:51:43Z",
+      "baseRepository": "evyncke/draft-vyncke-intarea-legacy-registries",
+      "baseRefName": "main",
+      "baseRefOid": "5faca2975a85de56aa7a1547abbf9ffa35a061d4",
+      "headRepository": "boucadair/draft-vyncke-intarea-legacy-registries",
+      "headRefName": "main",
+      "headRefOid": "b91b942e96431607013f734639fd7713903bdba5",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
