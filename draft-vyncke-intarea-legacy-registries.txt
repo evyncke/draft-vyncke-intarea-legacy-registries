@@ -4,8 +4,8 @@
 
 int-area                                                       É. Vyncke
 Internet-Draft                                                     Cisco
-Intended status: Standards Track                              4 May 2026
-Expires: 5 November 2026
+Intended status: Standards Track                              5 May 2026
+Expires: 6 November 2026
 
 
              Updates to Legacy IPv4-related IANA Registries
@@ -18,9 +18,6 @@ Abstract
    extended, the associated IANA registries need to be updated to
    reflect the current practice and reflect that defining such
    extensions is not recommended.
-
-   This document updates RFC 791, RFC 952, RFC 1091, and RFC 2242 as it
-   updates the related IANA registries.
 
 Discussion Venues
 
@@ -48,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 November 2026.
+   This Internet-Draft will expire on 6 November 2026.
 
 Copyright Notice
 
@@ -79,12 +76,14 @@ Table of Contents
 
 1.  Introduction
 
-   Several IANA registries were created for IPv4-related protocol
-   elements [RFC791].  As the IETF does not plan to extend core IPv4
-   specification (see also [IAB_IPV4]) and that more modern mechanisms
-   are defined to manage names, this document closes some relevant IANA
-   registries and changes the registration procedures of others.  See
-   more in Section 1.1.
+   Several registries were created for IPv4-related protocol elements
+   [RFC791].  These regisries were created by [RFC1700], which in turn
+   was obsoleted by [RFC3232] which handed these registries to IANA.
+
+   As the IETF does not plan to extend core IPv4 specification (see also
+   [IAB_IPV4]) and that more modern mechanisms are defined to manage
+   names, this document closes some relevant IANA registries and changes
+   the registration procedures of others.  See more in Section 1.1.
 
 1.1.  Justification
 
@@ -207,6 +206,14 @@ Table of Contents
               I. Stoica, "IP Options are not an option", December 2005,
               <https://www2.eecs.berkeley.edu/Pubs/TechRpts/2005/EECS-
               2005-24.pdf>.
+
+   [RFC1700]  Reynolds, J. and J. Postel, "Assigned Numbers", RFC 1700,
+              DOI 10.17487/RFC1700, October 1994,
+              <https://www.rfc-editor.org/rfc/rfc1700>.
+
+   [RFC3232]  Reynolds, J., Ed., "Assigned Numbers: RFC 1700 is Replaced
+              by an On-line Database", RFC 3232, DOI 10.17487/RFC3232,
+              January 2002, <https://www.rfc-editor.org/rfc/rfc3232>.
 
    [TERMINAL_TYPES]
               IANA, "Terminal Type Names",
