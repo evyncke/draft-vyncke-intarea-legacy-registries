@@ -103,6 +103,9 @@ As the IPv4 core specification (RFC 791) is no longer being extended or maintain
 modern mechanisms are defined to manage names, this document closes
 some relevant IANA registries and changes the registration procedures of others. See more in {{sec-justification}}.
 
+The information in the closed registries will still be valid and registrations already in these registries can still be updated
+per the guidance in {{Section 9.6 of !RFC8126}}.
+
 ## Justification {#sec-justification}
 
 The justifications for the changes to IANA registries listed in {{iana-considerations}}) are as follows:
@@ -111,18 +114,18 @@ The justifications for the changes to IANA registries listed in {{iana-considera
 : Registrations are to be closed as Netware is not extended anymore.
 
 {{IP_OPTIONS}}:
-: It is commonly understood that the use of IPv4 option is broken {{NOT_AN_OPTION}}. As such, the registration for new IPv4 options is closed.
+: It is commonly understood that the use of IPv4 options is broken {{NOT_AN_OPTION}}. As such, the registration for new IPv4 options is closed.
 
 {{IP_TTL}}:
-:This registry should not have been created as the IPv4 Time to Live (TTL) ({{Section 3.1 of !RFC791}}) header field can be freely selected by the source node.
+: This registry should not have been created as the IPv4 Time to Live (TTL) ({{Section 3.1 of !RFC791}}) header field can be freely selected by a source node.
 
 {{MACHINE_NAMES}} and {{TERMINAL_TYPES}}:
-: There are no registration procedures for these two registries. Moreover, there were no registrations made to these registries in the last two decades. This document specifies the registration procedure as "First Come First Served" ({{!RFC8126, Section 4.4}}).
+: There are no defined registration procedures for these two registries. Moreover, there were no registrations made to these registries in the last two decades. This document specifies the registration procedure as "First Come First Served" ({{!RFC8126, Section 4.4}}).
 
 # Operational Considerations
 
 As some registries are closed, they cannot be extended but the existing values are still
-valid, i.e., they are not deprecated and can still be used. These changes do not impact existing
+valid (i.e., unless they are deprecated by a future document, they can still be used). These changes do not impact existing
 operations that use already registered values.
 
 The use of IPv4 options on the public Internet is broken. The changes in this document
@@ -138,7 +141,7 @@ filtering on the content and amount of registrations.
 
 # IANA Considerations
 
-This document requests IANA to set the registration procedure to "Registration no longer accepted" with a reference to this document for the following registries:
+This document requests IANA to close the following registries per {{Section 9.6 of RFC8126}} and add a reference to this document:
 
 * The "NetWare/IP Option Type 63 Sub-Option Codes" registry under the "Dynamic Host Configuration Protocol (DHCP) and Bootstrap Protocol (BOOTP) Parameters" registry group {{DHC_NETWARE}}.
 * The "IP Option Numbers" registry under the "Internet Protocol Version 4 (IPv4) Parameters" registry group {{IP_OPTIONS}}.
