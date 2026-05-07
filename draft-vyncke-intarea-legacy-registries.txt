@@ -4,8 +4,8 @@
 
 int-area                                                       É. Vyncke
 Internet-Draft                                                     Cisco
-Intended status: Standards Track                              5 May 2026
-Expires: 6 November 2026
+Intended status: Standards Track                              7 May 2026
+Expires: 8 November 2026
 
 
              Updates to Legacy IPv4-related IANA Registries
@@ -15,9 +15,9 @@ Abstract
 
    IANA maintains several registries that were created for IPv4
    extensions.  As the IPv4 core specification is no longer being
-   extended or maintained, the associated IANA registries need to be
-   updated to reflect the current practice and reflect that defining
-   such extensions is not recommended.
+   extended, the associated IANA registries need to be updated to
+   reflect the current practice and reflect that defining such
+   extensions is not recommended.
 
 Discussion Venues
 
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 November 2026.
+   This Internet-Draft will expire on 8 November 2026.
 
 Copyright Notice
 
@@ -81,10 +81,10 @@ Table of Contents
    was obsoleted by [RFC3232] which handed these registries to IANA.
 
    As the IPv4 core specification (RFC 791) is no longer being extended
-   or maintained (see also [IAB_IPV4]) and that more modern mechanisms
-   are defined to manage names, this document closes some relevant IANA
-   registries and changes the registration procedures of others.  See
-   more in Section 1.1.
+   (see also [IAB_IPV4]) and that more modern mechanisms are defined to
+   manage names, this document closes some relevant IANA registries and
+   changes the registration procedures of others.  See more in
+   Section 1.1.
 
 1.1.  Justification
 
