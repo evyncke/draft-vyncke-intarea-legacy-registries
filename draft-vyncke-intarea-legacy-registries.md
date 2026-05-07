@@ -86,7 +86,7 @@ informative:
 --- abstract
 
 IANA maintains several registries that were created for IPv4 extensions. As the IPv4 core specification
-is no longer being extended or maintained,
+is no longer being extended,
 the associated IANA registries need to be updated to reflect the current practice and reflect that
 defining such extensions is not recommended.
 
@@ -99,7 +99,7 @@ Several registries were created for IPv4-related protocol elements {{!RFC791}}.
 These regisries were created by {{?RFC1700}}, which in turn was obsoleted by {{?RFC3232}} which handed
 these registries to IANA.
 
-As the IPv4 core specification (RFC 791) is no longer being extended or maintained (see also [IAB_IPV4]) and that more
+As the IPv4 core specification (RFC 791) is no longer being extended (see also [IAB_IPV4]) and that more
 modern mechanisms are defined to manage names, this document closes
 some relevant IANA registries and changes the registration procedures of others. See more in {{sec-justification}}.
 
