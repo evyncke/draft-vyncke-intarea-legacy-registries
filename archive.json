@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-05-07T02:06:26.402747+00:00",
+  "timestamp": "2026-05-10T02:07:56.748805+00:00",
   "repo": "evyncke/draft-vyncke-intarea-legacy-registries",
   "labels": [
     {
@@ -202,6 +202,68 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOST7MCc7ZA-kS",
+      "title": "Better and accurate language for the closure",
+      "url": "https://github.com/evyncke/draft-vyncke-intarea-legacy-registries/pull/3",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Clarified language and updated registration procedures for IANA registries in the document.\r\n\r\nAlso, point to the 8126 for the implications of closing a registry.",
+      "createdAt": "2026-05-07T04:57:53Z",
+      "updatedAt": "2026-05-07T04:57:54Z",
+      "baseRepository": "evyncke/draft-vyncke-intarea-legacy-registries",
+      "baseRefName": "main",
+      "baseRefOid": "1ceab9abb2da8246fd1fe3b236cf0c3cf8ef125d",
+      "headRepository": "boucadair/draft-vyncke-intarea-legacy-registries",
+      "headRefName": "patch-1",
+      "headRefOid": "d896d9f112598ffac5e9a1497fe6c546e32bfc20",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOST7MCc7ZBBwC",
+      "title": "Not maintained?",
+      "url": "https://github.com/evyncke/draft-vyncke-intarea-legacy-registries/pull/4",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I would delete as this part is a can of warm. In practice, there is some work on ICPMv4, for example.",
+      "createdAt": "2026-05-07T05:03:00Z",
+      "updatedAt": "2026-05-07T12:09:38Z",
+      "baseRepository": "evyncke/draft-vyncke-intarea-legacy-registries",
+      "baseRefName": "main",
+      "baseRefOid": "1ceab9abb2da8246fd1fe3b236cf0c3cf8ef125d",
+      "headRepository": "boucadair/draft-vyncke-intarea-legacy-registries",
+      "headRefName": "patch-2",
+      "headRefOid": "eb05b18079636889c23edcadaa4dab3fdc2c3474",
+      "closedAt": "2026-05-07T12:09:38Z",
+      "mergedAt": "2026-05-07T12:09:38Z",
+      "mergedBy": "evyncke",
+      "mergeCommit": {
+        "oid": "a117a71d8fd06f2c714fd7282b0202ffb311af0f"
+      },
+      "comments": [
+        {
+          "author": "evyncke",
+          "authorAssociation": "OWNER",
+          "body": "Good change, I am merging",
+          "createdAt": "2026-05-07T12:09:28Z",
+          "updatedAt": "2026-05-07T12:09:28Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
