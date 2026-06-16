@@ -86,10 +86,9 @@ informative:
 --- abstract
 
 IANA maintains several registries that were created for IPv4 extensions. As the IPv4 core specification
-is no longer being extended and as some registries do not have a registration procedure defined,
-these IANA registries need to be updated to assign a registration procedure or
-to reflect the current practice and reflect that
-defining such extensions is not recommended.
+is no longer being extended and as some registries do not have a defined IANA registration procedure,
+these registries need to be updated to indicate a registration procedure or
+to reflect the current practice that defining such extensions is not recommended.
 
 
 --- middle
@@ -100,10 +99,10 @@ Several registries were created for IPv4-related protocol elements {{!RFC791}}.
 These registries were created by {{?RFC1700}}, which in turn was obsoleted by {{?RFC3232}} which handed
 these registries to IANA.
 
-The IPv4 core specification (RFC 791) is no longer being extended (see also [IAB_IPV4]) and more
-modern mechanisms are defined to manage names. Also some registries do not have a registration procedures defined.
+The IPv4 core specification {{!RFC791}} is no longer being extended (see also {{IAB_IPV4}}) and more
+modern mechanisms are defined to manage names. Also, some IANA registries do not have a defined registration policy ({{Section 4 of !RFC8126}}).
 Therefore, this document closes
-some relevant IANA registries and changes the registration procedures of others. See more in {{sec-justification}}.
+some relevant IANA registries and changes the registration procedure for others. See more in {{sec-justification}}.
 
 The information in the closed registries is still valid and registrations already in these registries can still be updated
 per the guidance in {{Section 9.6 of !RFC8126}}.
@@ -132,24 +131,23 @@ As some registries are closed, they cannot be extended but the existing values a
 valid (i.e., unless they are deprecated by a future document, they can still be used). These changes do not impact existing
 operations that use already registered values.
 
-The use of IPv4 options on the public Internet is broken. The changes in this document
-provides a clear signal that solutions that rely on defining such options are not reliable. More
+The use of IPv4 options on the public Internet is broken. Solutions that rely on defining such options are not reliable. More
 robust alternative means should be explored.
 
 # Security Considerations
 
 There is no new security considerations introduced by this document except for the registries whose registration
-policy is changed to "First Come First Served". Concretely, registration is still possible to such registries
+policy is changed to "First Come First Served". Concretely, registrations are still possible to such registries
 with the risk of having unusable non-sensible data added to it, but the IANA policy is to apply common sense
 filtering on the content and amount of registrations.
 
 # IANA Considerations
 
-This document requests IANA to close the following registrie per {{Section 9.6 of RFC8126}} and add a reference to this document:
+This document requests IANA to close the following registry per {{Section 9.6 of RFC8126}} and add a reference to this document:
 
 * The "NetWare/IP Option Type 63 Sub-Option Codes" registry under the "Dynamic Host Configuration Protocol (DHCP) and Bootstrap Protocol (BOOTP) Parameters" registry group {{DHC_NETWARE}}.
 
-This document requests IANA to set the registration procedure to "IESG approval" ({{!RFC8126, Section 4.10}}) with a reference to this document for the following registries:
+This document requests IANA to set the registration procedure to "IESG approval" ({{!RFC8126, Section 4.10}}) with a reference to this document for the following registry:
 
 * The "IP Option Numbers" registry under the "Internet Protocol Version 4 (IPv4) Parameters" registry group {{IP_OPTIONS}}.
 
