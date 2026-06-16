@@ -8,10 +8,9 @@
 <meta content="Éric Vyncke" name="author">
 <meta content="
        IANA maintains several registries that were created for IPv4 extensions. As the IPv4 core specification
-is no longer being extended and as some registries do not have a registration procedure defined,
-these IANA registries need to be updated to assign a registration procedure or
-to reflect the current practice and reflect that
-defining such extensions is not recommended. 
+is no longer being extended and as some registries do not have a defined IANA registration procedure,
+these registries need to be updated to indicate a registration procedure or
+to reflect the current practice that defining such extensions is not recommended. 
     " name="description">
 <meta content="xml2rfc 3.33.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
@@ -1083,10 +1082,9 @@ svg {
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">IANA maintains several registries that were created for IPv4 extensions. As the IPv4 core specification
-is no longer being extended and as some registries do not have a registration procedure defined,
-these IANA registries need to be updated to assign a registration procedure or
-to reflect the current practice and reflect that
-defining such extensions is not recommended.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+is no longer being extended and as some registries do not have a defined IANA registration procedure,
+these registries need to be updated to indicate a registration procedure or
+to reflect the current practice that defining such extensions is not recommended.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-discussion-venues">
@@ -1193,10 +1191,10 @@ defining such extensions is not recommended.<a href="#section-abstract-1" class=
 <p id="section-1-1">Several registries were created for IPv4-related protocol elements <span>[<a href="#RFC791" class="cite xref">RFC791</a>]</span>.
 These registries were created by <span>[<a href="#RFC1700" class="cite xref">RFC1700</a>]</span>, which in turn was obsoleted by <span>[<a href="#RFC3232" class="cite xref">RFC3232</a>]</span> which handed
 these registries to IANA.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">The IPv4 core specification (RFC 791) is no longer being extended (see also <span>[<a href="#IAB_IPV4" class="cite xref">IAB_IPV4</a>]</span>) and more
-modern mechanisms are defined to manage names. Also some registries do not have a registration procedures defined.
+<p id="section-1-2">The IPv4 core specification <span>[<a href="#RFC791" class="cite xref">RFC791</a>]</span> is no longer being extended (see also <span>[<a href="#IAB_IPV4" class="cite xref">IAB_IPV4</a>]</span>) and more
+modern mechanisms are defined to manage names. Also, some IANA registries do not have a defined registration policy (<span><a href="https://rfc-editor.org/rfc/rfc8126#section-4" class="relref">Section 4</a> of [<a href="#RFC8126" class="cite xref">RFC8126</a>]</span>).
 Therefore, this document closes
-some relevant IANA registries and changes the registration procedures of others. See more in <a href="#sec-justification" class="auto internal xref">Section 1.1</a>.<a href="#section-1-2" class="pilcrow">¶</a></p>
+some relevant IANA registries and changes the registration procedure for others. See more in <a href="#sec-justification" class="auto internal xref">Section 1.1</a>.<a href="#section-1-2" class="pilcrow">¶</a></p>
 <p id="section-1-3">The information in the closed registries is still valid and registrations already in these registries can still be updated
 per the guidance in <span><a href="https://rfc-editor.org/rfc/rfc8126#section-9.6" class="relref">Section 9.6</a> of [<a href="#RFC8126" class="cite xref">RFC8126</a>]</span>.<a href="#section-1-3" class="pilcrow">¶</a></p>
 <div id="sec-justification">
@@ -1245,8 +1243,7 @@ expected that the IESG won't approve any new IPv4 option.<a href="#section-1.1-2
 <p id="section-2-1">As some registries are closed, they cannot be extended but the existing values are still
 valid (i.e., unless they are deprecated by a future document, they can still be used). These changes do not impact existing
 operations that use already registered values.<a href="#section-2-1" class="pilcrow">¶</a></p>
-<p id="section-2-2">The use of IPv4 options on the public Internet is broken. The changes in this document
-provides a clear signal that solutions that rely on defining such options are not reliable. More
+<p id="section-2-2">The use of IPv4 options on the public Internet is broken. Solutions that rely on defining such options are not reliable. More
 robust alternative means should be explored.<a href="#section-2-2" class="pilcrow">¶</a></p>
 </section>
 </div>
@@ -1256,7 +1253,7 @@ robust alternative means should be explored.<a href="#section-2-2" class="pilcro
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
       </h2>
 <p id="section-3-1">There is no new security considerations introduced by this document except for the registries whose registration
-policy is changed to "First Come First Served". Concretely, registration is still possible to such registries
+policy is changed to "First Come First Served". Concretely, registrations are still possible to such registries
 with the risk of having unusable non-sensible data added to it, but the IANA policy is to apply common sense
 filtering on the content and amount of registrations.<a href="#section-3-1" class="pilcrow">¶</a></p>
 </section>
@@ -1266,13 +1263,13 @@ filtering on the content and amount of registrations.<a href="#section-3-1" clas
       <h2 id="name-iana-considerations">
 <a href="#section-4" class="section-number selfRef">4. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
       </h2>
-<p id="section-4-1">This document requests IANA to close the following registrie per <span><a href="https://rfc-editor.org/rfc/rfc8126#section-9.6" class="relref">Section 9.6</a> of [<a href="#RFC8126" class="cite xref">RFC8126</a>]</span> and add a reference to this document:<a href="#section-4-1" class="pilcrow">¶</a></p>
+<p id="section-4-1">This document requests IANA to close the following registry per <span><a href="https://rfc-editor.org/rfc/rfc8126#section-9.6" class="relref">Section 9.6</a> of [<a href="#RFC8126" class="cite xref">RFC8126</a>]</span> and add a reference to this document:<a href="#section-4-1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-4-2.1">
           <p id="section-4-2.1.1">The "NetWare/IP Option Type 63 Sub-Option Codes" registry under the "Dynamic Host Configuration Protocol (DHCP) and Bootstrap Protocol (BOOTP) Parameters" registry group <span>[<a href="#DHC_NETWARE" class="cite xref">DHC_NETWARE</a>]</span>.<a href="#section-4-2.1.1" class="pilcrow">¶</a></p>
 </li>
       </ul>
-<p id="section-4-3">This document requests IANA to set the registration procedure to "IESG approval" (<span>[<a href="#RFC8126" class="cite xref">RFC8126</a>], <a href="https://rfc-editor.org/rfc/rfc8126#section-4.10" class="relref">Section 4.10</a></span>) with a reference to this document for the following registries:<a href="#section-4-3" class="pilcrow">¶</a></p>
+<p id="section-4-3">This document requests IANA to set the registration procedure to "IESG approval" (<span>[<a href="#RFC8126" class="cite xref">RFC8126</a>], <a href="https://rfc-editor.org/rfc/rfc8126#section-4.10" class="relref">Section 4.10</a></span>) with a reference to this document for the following registry:<a href="#section-4-3" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-4-4.1">
           <p id="section-4-4.1.1">The "IP Option Numbers" registry under the "Internet Protocol Version 4 (IPv4) Parameters" registry group <span>[<a href="#IP_OPTIONS" class="cite xref">IP_OPTIONS</a>]</span>.<a href="#section-4-4.1.1" class="pilcrow">¶</a></p>
