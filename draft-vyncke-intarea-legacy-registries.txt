@@ -15,9 +15,10 @@ Abstract
 
    IANA maintains several registries that were created for IPv4
    extensions.  As the IPv4 core specification is no longer being
-   extended, the associated IANA registries need to be updated to
-   reflect the current practice and reflect that defining such
-   extensions is not recommended.
+   extended and as some registries do not have a registration procedure
+   defined, these IANA registries need to be updated to assign a
+   registration procedure or to reflect the current practice and reflect
+   that defining such extensions is not recommended.
 
 Discussion Venues
 
@@ -80,11 +81,12 @@ Table of Contents
    [RFC791].  These regisries were created by [RFC1700], which in turn
    was obsoleted by [RFC3232] which handed these registries to IANA.
 
-   As the IPv4 core specification (RFC 791) is no longer being extended
+   The IPv4 core specification (RFC 791) is no longer being extended
    (see also [IAB_IPV4]) and that more modern mechanisms are defined to
-   manage names, this document closes some relevant IANA registries and
-   changes the registration procedures of others.  See more in
-   Section 1.1.
+   manage names.  Also some registries do not have a registration
+   procedures defined.  Therefore, this document closes some relevant
+   IANA registries and changes the registration procedures of others.
+   See more in Section 1.1.
 
    The information in the closed registries will still be valid and
    registrations already in these registries can still be updated per
@@ -99,12 +101,13 @@ Table of Contents
       extended anymore.
 
    [IP_OPTIONS]:  It is commonly understood that the use of IPv4 options
-      is broken [NOT_AN_OPTION].  As such, the registration for new IPv4
-      options is closed.
+      is broken [NOT_AN_OPTION].  The registration procedure is set to
+      "IESG approval" ([RFC8126], Section 4.10), but it is expected that
+      the IESG won't approve any new IPv4 option.
 
    [IP_TTL]:  This registry should not have been created as the IPv4
       Time to Live (TTL) (Section 3.1 of [RFC791]) header field can be
-      freely selected by a source node.
+      freely selected by source nodes.
 
    [MACHINE_NAMES] and [TERMINAL_TYPES]:  There are no defined
       registration procedures for these two registries.  Moreover, there
@@ -135,12 +138,16 @@ Table of Contents
 
 4.  IANA Considerations
 
-   This document requests IANA to close the following registries per
+   This document requests IANA to close the following registrie per
    Section 9.6 of [RFC8126] and add a reference to this document:
 
    *  The "NetWare/IP Option Type 63 Sub-Option Codes" registry under
       the "Dynamic Host Configuration Protocol (DHCP) and Bootstrap
       Protocol (BOOTP) Parameters" registry group [DHC_NETWARE].
+
+   This document requests IANA to set the registration procedure to
+   "IESG approval" ([RFC8126], Section 4.10) with a reference to this
+   document for the following registries:
 
    *  The "IP Option Numbers" registry under the "Internet Protocol
       Version 4 (IPv4) Parameters" registry group [IP_OPTIONS].
