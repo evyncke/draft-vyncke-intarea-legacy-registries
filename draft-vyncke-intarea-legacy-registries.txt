@@ -4,21 +4,21 @@
 
 int-area                                                       É. Vyncke
 Internet-Draft                                                     Cisco
-Intended status: Standards Track                            16 June 2026
-Expires: 18 December 2026
+Intended status: Standards Track                            16 July 2026
+Expires: 17 January 2027
 
 
-             Updates to Legacy IPv4-related IANA Registries
+                   Updates to Legacy IANA Registries
              draft-vyncke-intarea-legacy-registries-latest
 
 Abstract
 
-   IANA maintains several registries that were created for IPv4
-   extensions.  As the IPv4 core specification is no longer being
-   extended and as some registries do not have a defined IANA
-   registration procedure, these registries need to be updated to
-   indicate a registration procedure or to reflect the current practice
-   that defining such extensions is not recommended.
+   IANA maintains several registries that were created for IPv4.  As the
+   IPv4 core specification is no longer being extended and as some other
+   registries do not have a defined IANA registration procedure, these
+   registries need to be updated to indicate a registration procedure or
+   to reflect the current practice that defining such extensions is not
+   recommended.
 
 Discussion Venues
 
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 December 2026.
+   This Internet-Draft will expire on 17 January 2027.
 
 Copyright Notice
 
@@ -117,14 +117,14 @@ Table of Contents
 
 2.  Operational Considerations
 
-   As some registries are closed, they cannot be extended but the
-   existing values are still valid (i.e., unless they are deprecated by
-   a future document, they can still be used).  These changes do not
-   impact existing operations that use already registered values.
+   As one registry is closed, it cannot be extended but the existing
+   values are still valid (i.e., unless they are deprecated by a future
+   document, they can still be used).  These changes do not impact
+   existing operations that use already registered values.
 
    The use of IPv4 options on the public Internet is broken.  Solutions
-   that rely on defining such options are not reliable.  More robust
-   alternative means should be explored.
+   that rely on defining such options will probably not be reliable.
+   More robust alternative means should be explored.
 
 3.  Security Considerations
 
@@ -173,14 +173,14 @@ Table of Contents
 
 5.1.  Normative References
 
+   [RFC791]   Postel, J., "Internet Protocol", STD 5, RFC 791,
+              DOI 10.17487/RFC791, September 1981,
+              <https://www.rfc-editor.org/rfc/rfc791>.
+
    [RFC1122]  Braden, R., Ed., "Requirements for Internet Hosts -
               Communication Layers", STD 3, RFC 1122,
               DOI 10.17487/RFC1122, October 1989,
               <https://www.rfc-editor.org/rfc/rfc1122>.
-
-   [RFC791]   Postel, J., "Internet Protocol", STD 5, RFC 791,
-              DOI 10.17487/RFC0791, September 1981,
-              <https://www.rfc-editor.org/rfc/rfc791>.
 
    [RFC8126]  Cotton, M., Leiba, B., and T. Narten, "Guidelines for
               Writing an IANA Considerations Section in RFCs", BCP 26,
@@ -235,7 +235,7 @@ Acknowledgments
    Thanks to Mohamed Boucadair for the initial idea and deep review.
    Thanks also to Amanda Baber for the initial list of legacy registries
    or registries without any specified registration procedures.  Other
-   thanks for reviewers: Tommy Jensen.
+   thanks for reviewers: Brian Carpenter, Tommy Jensen, Dave Thaler.
 
 Author's Address
 
