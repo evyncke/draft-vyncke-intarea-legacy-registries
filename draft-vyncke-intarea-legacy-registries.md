@@ -1,6 +1,6 @@
 ---
-title: "Updates to Legacy IPv4-related IANA Registries"
-abbrev: "Legacy IANA IPv4 Registries"
+title: "Updates to Legacy IANA Registries"
+abbrev: "Legacy IANA Registries"
 docname: draft-vyncke-intarea-legacy-registries-latest
 category: std
 
@@ -85,8 +85,8 @@ informative:
 
 --- abstract
 
-IANA maintains several registries that were created for IPv4 extensions. As the IPv4 core specification
-is no longer being extended and as some registries do not have a defined IANA registration procedure,
+IANA maintains several registries that were created for IPv4. As the IPv4 core specification
+is no longer being extended and as some other registries do not have a defined IANA registration procedure,
 these registries need to be updated to indicate a registration procedure or
 to reflect the current practice that defining such extensions is not recommended.
 
@@ -127,11 +127,12 @@ expected that the IESG won't approve any new IPv4 option.
 
 # Operational Considerations
 
-As some registries are closed, they cannot be extended but the existing values are still
+As one registry is closed, it cannot be extended but the existing values are still
 valid (i.e., unless they are deprecated by a future document, they can still be used). These changes do not impact existing
 operations that use already registered values.
 
-The use of IPv4 options on the public Internet is broken. Solutions that rely on defining such options are not reliable. More
+The use of IPv4 options on the public Internet is broken. Solutions that rely on defining such options will probably not
+be reliable. More
 robust alternative means should be explored.
 
 # Security Considerations
@@ -167,4 +168,4 @@ This document also requests IANA to completely remove the "IP Time to Live Param
 {:numbered="false"}
 
 Thanks to Mohamed Boucadair for the initial idea and deep review. Thanks also to Amanda Baber for the initial list of legacy registries or registries without
-any specified registration procedures. Other thanks for reviewers: Tommy Jensen.
+any specified registration procedures. Other thanks for reviewers: Brian Carpenter, Tommy Jensen, Dave Thaler.
