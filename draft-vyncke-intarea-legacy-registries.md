@@ -115,9 +115,8 @@ The justifications for the changes to IANA registries listed in {{iana-considera
 : Registrations are to be closed as Netware is not extended anymore.
 
 {{IP_OPTIONS}}:
-: It is commonly understood that the use of IPv4 options is broken {{NOT_AN_OPTION}}. The registration procedure is set to
-"IESG approval" ({{!RFC8126, Section 4.10}});  it is
-expected that the IESG won't approve any new IPv4 option.
+: while it is commonly understood that the use of IPv4 options is broken {{NOT_AN_OPTION}}, the registry is not closed but the registration procedure is set to
+"IESG approval" ({{!RFC8126, Section 4.10}}).
 
 {{IP_TTL}}:
 : This registry should not have been created as the IPv4 Time to Live (TTL) ({{Section 3.1 of !RFC791}}) header field can be freely selected by source nodes.
