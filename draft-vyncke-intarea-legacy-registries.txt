@@ -4,8 +4,8 @@
 
 int-area                                                       É. Vyncke
 Internet-Draft                                                     Cisco
-Intended status: Standards Track                            16 July 2026
-Expires: 17 January 2027
+Intended status: Standards Track                           4 August 2026
+Expires: 5 February 2027
 
 
                    Updates to Legacy IANA Registries
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 January 2027.
+   This Internet-Draft will expire on 5 February 2027.
 
 Copyright Notice
 
@@ -100,10 +100,10 @@ Table of Contents
    [DHC_NETWARE]:  Registrations are to be closed as Netware is not
       extended anymore.
 
-   [IP_OPTIONS]:  It is commonly understood that the use of IPv4 options
-      is broken [NOT_AN_OPTION].  The registration procedure is set to
-      "IESG approval" ([RFC8126], Section 4.10); it is expected that the
-      IESG won't approve any new IPv4 option.
+   [IP_OPTIONS]:  while it is commonly understood that the use of IPv4
+      options is broken [NOT_AN_OPTION], the registry is not closed but
+      the registration procedure is set to "IESG approval" ([RFC8126],
+      Section 4.10).
 
    [IP_TTL]:  This registry should not have been created as the IPv4
       Time to Live (TTL) (Section 3.1 of [RFC791]) header field can be
