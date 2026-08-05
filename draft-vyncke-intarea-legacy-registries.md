@@ -115,7 +115,7 @@ The justifications for the changes to IANA registries listed in {{iana-considera
 : Registrations are to be closed as Netware is not extended anymore.
 
 {{IP_OPTIONS}}:
-: while it is commonly understood that the use of IPv4 options is broken {{NOT_AN_OPTION}}, the registry is not closed but the registration procedure is set to
+: while it is commonly understood that the use of IPv4 options is broken {{NOT_AN_OPTION}}, the registry is not to be closed but the registration procedure is set to
 "IESG approval" ({{!RFC8126, Section 4.10}}).
 
 {{IP_TTL}}:
