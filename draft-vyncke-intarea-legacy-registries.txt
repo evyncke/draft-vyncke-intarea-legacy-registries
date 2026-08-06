@@ -4,8 +4,8 @@
 
 int-area                                                       É. Vyncke
 Internet-Draft                                                     Cisco
-Intended status: Standards Track                           5 August 2026
-Expires: 6 February 2027
+Intended status: Standards Track                           6 August 2026
+Expires: 7 February 2027
 
 
                    Updates to Legacy IANA Registries
@@ -46,7 +46,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 February 2027.
+   This Internet-Draft will expire on 7 February 2027.
 
 Copyright Notice
 
@@ -128,8 +128,8 @@ Table of Contents
 
 3.  Security Considerations
 
-   There is no new security considerations introduced by this document
-   except for the registries whose registration policy is changed to
+   There are no new security considerations introduced by this document
+   except for the registries whose registration policies are changed to
    "First Come First Served".  Concretely, registrations are still
    possible to such registries with the risk of having unusable non-
    sensible data added to it, but the IANA policy is to apply common
