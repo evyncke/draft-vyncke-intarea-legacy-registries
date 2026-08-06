@@ -136,8 +136,8 @@ robust alternative means should be explored.
 
 # Security Considerations
 
-There is no new security considerations introduced by this document except for the registries whose registration
-policy is changed to "First Come First Served". Concretely, registrations are still possible to such registries
+There are no new security considerations introduced by this document except for the registries whose registration
+policies are changed to "First Come First Served". Concretely, registrations are still possible to such registries
 with the risk of having unusable non-sensible data added to it, but the IANA policy is to apply common sense
 filtering on the content and amount of registrations.
 
