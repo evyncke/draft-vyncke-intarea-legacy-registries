@@ -1,7 +1,7 @@
 ---
 title: "Updates to Legacy IANA Registries"
 abbrev: "Legacy IANA Registries"
-docname: draft-vyncke-intarea-legacy-registries-latest
+docname: draft-ietf-intarea-legacy-registries-latest
 category: std
 
 ipr: trust200902
