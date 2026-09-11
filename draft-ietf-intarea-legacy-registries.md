@@ -119,7 +119,7 @@ The justifications for the changes to IANA registries listed in {{iana-considera
 "IESG approval" ({{!RFC8126, Section 4.10}}).
 
 {{IP_TTL}}:
-: This registry should not have been created as the IPv4 Time to Live (TTL) ({{Section 3.1 of !RFC791}}) header field can be freely selected by source nodes.
+: This registry should not have been created as the IPv4 Time to Live (TTL) ({{Section 3.1 of !RFC791}}) header field can be freely selected by source nodes. This registry is removed.
 
 {{MACHINE_NAMES}} and {{TERMINAL_TYPES}}:
 : There are no defined registration procedures for these two registries. Moreover, there were no registrations made to these registries in the last two decades. This document specifies the registration procedure as "First Come First Served" ({{!RFC8126, Section 4.4}}).
