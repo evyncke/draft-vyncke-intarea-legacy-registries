@@ -2,12 +2,12 @@
 
 # Managing the Legacy IPv4-related IANA Registries
 
-This is the working area for the individual Internet-Draft, "Managing the Legacy IPv4-related IANA Registries".
+This is the working area for the INTAREA Working Gorup Internet-Draft, "Managing the Legacy IPv4-related IANA Registries".
 
-* [Editor's Copy](https://evyncke.github.io/draft-vyncke-intarea-legacy-registries/#go.draft-vyncke-intarea-legacy-registries.html)
-* [Datatracker Page](https://datatracker.ietf.org/doc/draft-vyncke-intarea-legacy-registries)
-* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-vyncke-intarea-legacy-registries)
-* [Compare Editor's Copy to Individual Draft](https://evyncke.github.io/draft-vyncke-intarea-legacy-registries/#go.draft-vyncke-intarea-legacy-registries.diff)
+* [Editor's Copy](https://evyncke.github.io/draft-vyncke-intarea-legacy-registries/#go.draft-ietf-intarea-legacy-registries.html)
+* [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-intarea-legacy-registries)
+* [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-intarea-legacy-registries)
+* [Compare Editor's Copy to Individual Draft](https://evyncke.github.io/draft-vyncke-intarea-legacy-registries/#go.draft-ietf-intarea-legacy-registries.diff)
 
 
 ## Contributing
