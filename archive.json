@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-10-04T03:33:41.237730+00:00",
+  "timestamp": "2026-10-06T04:02:20.970822+00:00",
   "repo": "evyncke/draft-vyncke-intarea-legacy-registries",
   "labels": [
     {
@@ -375,6 +375,32 @@
           ]
         }
       ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOST7MCc8AAAABGrRU_Q",
+      "title": "fix readme to point to the adopted WG document",
+      "url": "https://github.com/evyncke/draft-vyncke-intarea-legacy-registries/pull/6",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2026-10-05T09:41:09Z",
+      "updatedAt": "2026-10-05T09:41:09Z",
+      "baseRepository": "evyncke/draft-vyncke-intarea-legacy-registries",
+      "baseRefName": "main",
+      "baseRefOid": "a38d5debe9f61176e2389cf603651c6a11f200a8",
+      "headRepository": "boucadair/draft-vyncke-intarea-legacy-registries",
+      "headRefName": "patch-4",
+      "headRefOid": "f2494fa741a897413158d13c9ce463e22a753bea",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
